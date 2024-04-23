@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(220, 192, 7);
+    background-repeat: none;
+    background-size: cover;
+    
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.my-container{
+    margin-top: 10px;
+}
+.my-carousel{
+    border-radius: 8px;
+}
+.mybrandtext{
+    font-weight: 750;
+    color: aliceblue;
+}
+.mynavbg{
+    margin-bottom: 30px;
+}
+.mynav{
+    background-color: black;
+}
+.mynavbutton{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.navitem{
+    margin-right: 60px;
+}
+.btnpad{
+    background-color: rgb(238, 207, 0);
+    border-radius: 19px;
+}
+
+header{
+    margin: none;
+}
+.branding{
+    display: none;
+}
+.mynavul{
+    text-align: center;
+    padding: 10px 5px;
+}
+.loccontainer{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    
+}
+.mycards{
+    margin-top: 30px;
+    border-color: black;
+}
+.myfooter{
+    color: white;
+    text-align: center;
+}
+.buddys{
+    color: white;
+}
+footer{
+    text-align: center;
+    align-items: center;
+}
+.mycontainer{
+    background-color: white;
+}
+
+/* }
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) { 
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+.branding{
+    display: inline;
+}
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}

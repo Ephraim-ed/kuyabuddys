@@ -1,0 +1,181 @@
+body{
+    background-color: rgb(220, 192, 7);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.mycontainer{
+
+    height: 100vh;
+
+}
+.toktok, .deli{
+    color: #fdcc49;
+    font-weight: 600;
+}
+
+.card{
+    border:none;
+}
+
+.form-control {
+    border-bottom: 2px solid #eee !important;
+    border: none;
+    font-weight: 600
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #8bbafe;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 0px;
+    border-bottom: 2px solid blue !important;
+}
+
+
+
+.inputbox {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%
+}
+
+.inputbox span {
+    position: absolute;
+    top: 7px;
+    left: 11px;
+    transition: 0.5s
+}
+
+.inputbox i {
+    position: absolute;
+    top: 13px;
+    right: 8px;
+    transition: 0.5s;
+    color: #3F51B5
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0
+}
+
+.inputbox input:focus~span {
+    transform: translateX(-0px) translateY(-15px);
+    font-size: 12px
+}
+
+.inputbox input:valid~span {
+    transform: translateX(-0px) translateY(-15px);
+    font-size: 12px
+}
+
+.card-blue{
+
+    background-color: #252525;
+}
+
+.hightlight{
+
+    background-color: #313131;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.yellow{
+
+    color: rgb(220, 192, 7); 
+}
+
+.decoration{
+
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #492bc4;
+    border-color:#492bc4;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color:#492bc4;
+    border-color: #492bc4;
+}
+
+
+.decoration:hover{
+
+    text-decoration: none;
+    color: #fdcc49; 
+}
+.mybtn{
+    border-style: hidden;
+    color: aqua;
+}
+.my-container{
+    margin-top: 10px;
+}
+.my-carousel{
+    border-radius: 8px;
+}
+.mybrandtext{
+    font-weight: 750;
+    color: #fff;
+}
+.mynavbg{
+    margin-bottom: 30px;
+}
+.mynav{
+    background-color: black;
+}
+.mynavbutton{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.navitem{
+    margin-right: 60px;
+}
+.btnpad{
+    background-color: rgb(238, 207, 0);
+    border-radius: 19px;
+}
+
+header{
+    margin: none;
+}
+.branding{
+    display: none;
+}
+.mynavul{
+    text-align: center;
+    padding: 10px 5px;
+}
+.loccontainer{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    
+}
+.mycards{
+    margin-top: 30px;
+    border-color: black;
+}
+.myfooter{
+    color: white;
+    text-align: center;
+}
+.buddys{
+    color: white;
+}
+footer{
+    text-align: center;
+    align-items: center;
+}
